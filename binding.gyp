@@ -20,6 +20,7 @@
             '<!@(pkg-config --cflags libpjproject)',
             '-fexceptions',
             '-Wno-maybe-uninitialized',
+            '-std=c++14',
           ],
           'libraries': [
             '<!@(pkg-config --libs libpjproject)',
